@@ -1,0 +1,950 @@
+{
+  "table1_main_cases": [
+    {
+      "id": "grover_7",
+      "benchmark": "Grover",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_n4_total7.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "grover_9",
+      "benchmark": "Grover",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_n5_total9.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "grover_39",
+      "benchmark": "Grover",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_n20_total39.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "grover_r1_319",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_dirty_n160_r1.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "grover_r1_559",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_dirty_n280_r1.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "adder_13",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n7_total13_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "adder_1499",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n750_total1499_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "adder_5999",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n3000_total5999_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "bridge_1799",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/ghz_dirty_bridge_n900_total1799.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "bridge_1999",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/ghz_dirty_bridge_n1000_total1999.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "bridge_4799",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/ghz_dirty_bridge_n2400_total4799.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "bridge_phase_11",
+      "benchmark": "BridgeGHZ(Phase)",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table1/ghz_phase_bridge_n6_total11.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "injected": true,
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "bridge_phase_13",
+      "benchmark": "BridgeGHZ(Phase)",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table1/ghz_phase_bridge_n7_total13.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "injected": true,
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "bridge_phase_15",
+      "benchmark": "BridgeGHZ(Phase)",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table1/ghz_phase_bridge_n8_total15.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "injected": true,
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "bridge_logic_11",
+      "benchmark": "BridgeGHZ(Logic)",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table1/ghz_logic_bridge_n6_total11.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "injected": true,
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "bridge_logic_13",
+      "benchmark": "BridgeGHZ(Logic)",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table1/ghz_logic_bridge_n7_total13.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "injected": true,
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "bridge_logic_15",
+      "benchmark": "BridgeGHZ(Logic)",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table1/ghz_logic_bridge_n8_total15.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "injected": true,
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "reqomp_11",
+      "benchmark": "Reqomp-MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/reqomp_mcx_n6_total11.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "injected": true,
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "reqomp_13",
+      "benchmark": "Reqomp-MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/reqomp_mcx_n7_total13.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "injected": true,
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "reqomp_15",
+      "benchmark": "Reqomp-MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/reqomp_mcx_n8_total15.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "injected": true,
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "mcx_1599",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n800_total1599.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "mcx_1799",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n900_total1799.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "mcx_5999",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n3000_total5999.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "identity_5_from_9",
+      "benchmark": "IdentityRandom",
+      "source": {"type": "existing", "path": "benchmarks/universal_random_circuit/identity_q5_g50_s1.qasm"},
+      "targets": ["q[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "identity_6_from_10",
+      "benchmark": "IdentityRandom",
+      "source": {"type": "existing", "path": "benchmarks/universal_random_circuit/identity_q6_g60_s1.qasm"},
+      "targets": ["q[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "identity_7_from_11",
+      "benchmark": "IdentityRandom",
+      "source": {"type": "existing", "path": "benchmarks/universal_random_circuit/identity_q7_g70_s1.qasm"},
+      "targets": ["q[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "random_30",
+      "benchmark": "RandomCircuit",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/random_q30_g60_s0.qasm"},
+      "targets": ["q[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "random_50",
+      "benchmark": "RandomCircuit",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/random_q50_g100_s0.qasm"},
+      "targets": ["q[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "random_70",
+      "benchmark": "RandomCircuit",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/random_q70_g70_s0.qasm"},
+      "targets": ["q[2]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table1",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    }
+  ],
+  "table2_repair_cases": [
+    {
+      "id": "repair_grover_7",
+      "benchmark": "Grover",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table2/grover_n4_total7.qasm"},
+      "repair_mode": "comp",
+      "rows": [
+        {"case_label": "a_0", "target": "anc[0]", "injected": false},
+        {"case_label": "a_1", "target": "anc[1]", "injected": false}
+      ],
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "repair_grover_r1_139",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table2/grover_dirty_n70_r1.qasm"},
+      "repair_mode": "comp",
+      "rows": [
+        {"case_label": "a_0", "target": "anc[0]", "injected": false},
+        {"case_label": "a_1", "target": "anc[1]", "injected": true},
+        {"case_label": "a_2", "target": "anc[2]", "injected": true}
+      ],
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "repair_mcx_399",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table2/MCX_n200_total399.qasm"},
+      "repair_mode": "comp",
+      "rows": [
+        {"case_label": "a_0", "target": "anc[0]", "injected": false},
+        {"case_label": "a_1", "target": "anc[1]", "injected": true},
+        {"case_label": "a_2", "target": "anc[2]", "injected": true}
+      ],
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "repair_adder_399",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table2/adder_n200_total399_dirty.qasm"},
+      "repair_mode": "comp",
+      "rows": [
+        {"case_label": "a_0", "target": "anc[0]", "injected": false},
+        {"case_label": "a_1", "target": "anc[1]", "injected": true},
+        {"case_label": "a_2", "target": "anc[2]", "injected": true}
+      ],
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "repair_bridge_3999",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table2/ghz_dirty_bridge_n2000_total3999.qasm"},
+      "repair_mode": "comp",
+      "rows": [
+        {"case_label": "a_0", "target": "anc[0]", "injected": false},
+        {"case_label": "a_1", "target": "anc[1]", "injected": true}
+      ],
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "repair_reqomp_599",
+      "benchmark": "Reqomp-MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table2/reqomp_mcx_n300_total599.qasm"},
+      "repair_mode": "comp",
+      "rows": [
+        {"case_label": "a_0", "target": "anc[0]", "injected": false},
+        {"case_label": "a_1", "target": "anc[1]", "injected": true},
+        {"case_label": "a_2", "target": "anc[2]", "injected": true}
+      ],
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "repair_random_50",
+      "benchmark": "RandomCircuit",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table2/random_q30_g180_s0.qasm"},
+      "repair_mode": "comp",
+      "rows": [
+        {"case_label": "a_0", "target": "q[0]", "injected": false},
+        {"case_label": "a_1", "target": "q[1]", "injected": true},
+        {"case_label": "a_2", "target": "q[2]", "injected": true}
+      ],
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "repair_identity_5",
+      "benchmark": "IdentityRandom",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table2/identity_q5_g50_s1_injected.qasm"},
+      "repair_mode": "comp",
+      "rows": [
+        {"case_label": "a_0", "target": "q[0]", "injected": false},
+        {"case_label": "a_1", "target": "q[1]", "injected": true},
+        {"case_label": "a_2", "target": "q[2]", "injected": true}
+      ],
+      "timeout_s": 3600,
+      "mem_gb": 32
+    }
+  ],
+  "figure3_cases": [
+    {
+      "id": "figure_mcx",
+      "kind": "mcx",
+      "points": [
+        {"label": "199", "source": {"type": "existing", "path": "benchmark_for_tables/figure3/MCX_n100_total199.qasm"}, "targets": ["anc[0]"]},
+        {"label": "599", "source": {"type": "existing", "path": "benchmark_for_tables/figure3/MCX_n300_total599.qasm"}, "targets": ["anc[0]"]},
+        {"label": "999", "source": {"type": "existing", "path": "benchmark_for_tables/figure3/MCX_n500_total999.qasm"}, "targets": ["anc[0]"]},
+        {"label": "1399", "source": {"type": "existing", "path": "benchmark_for_tables/figure3/MCX_n700_total1399.qasm"}, "targets": ["anc[0]"]},
+        {"label": "1599", "source": {"type": "existing", "path": "benchmark_for_tables/figure3/MCX_n800_total1599.qasm"}, "targets": ["anc[0]"]},
+        {"label": "1799", "source": {"type": "existing", "path": "benchmark_for_tables/figure3/MCX_n900_total1799.qasm"}, "targets": ["anc[0]"], "backends": ["quokka"]},
+        {"label": "1999", "source": {"type": "existing", "path": "benchmark_for_tables/figure3/MCX_n1000_total1999.qasm"}, "targets": ["anc[0]"], "backends": ["quokka"]}
+      ],
+      "backends": ["quokka", "qcec"],
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "figure_grover_rounds",
+      "kind": "grover",
+      "series": [
+        {"label": "N=5", "total_qubits": 5, "rounds": [1, 2, 3, 4, 5, 6, 7, 8], "source_dir": "benchmark_for_tables/figure3"},
+        {"label": "N=7", "total_qubits": 7, "rounds": [1, 2, 3, 4, 5, 6, 7, 8], "source_dir": "benchmark_for_tables/figure3"},
+        {"label": "N=9", "total_qubits": 9, "rounds": [1, 2, 3], "source_dir": "benchmark_for_tables/figure3"},
+        {"label": "N=9", "total_qubits": 9, "rounds": [4, 5, 6, 7, 8], "source_dir": "benchmark_for_tables/figure3", "backends": ["qcec"]}
+      ],
+      "backends": ["quokka", "qcec"],
+      "timeout_s": 3600,
+      "mem_gb": 32
+    }
+  ],
+  "table3_appendix_cases": [
+    {
+      "id": "appendix_grover_7",
+      "benchmark": "Grover_F",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_n4_total7.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_9",
+      "benchmark": "Grover_F",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_n5_total9.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_11",
+      "benchmark": "Grover_F",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_n6_total11.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_19",
+      "benchmark": "Grover_F",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_n10_total19.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_29",
+      "benchmark": "Grover_F",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_n15_total29.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_35",
+      "benchmark": "Grover_F",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_n18_total35.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_39",
+      "benchmark": "Grover_F",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_n20_total39.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_r1_99",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_dirty_n50_r1.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_r1_179",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_dirty_n90_r1.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_r1_239",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_dirty_n120_r1.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_r1_319",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_dirty_n160_r1.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_r1_399",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_dirty_n200_r1.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_r1_479",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_dirty_n240_r1.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_r1_559",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_dirty_n280_r1.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_grover_r1_699",
+      "benchmark": "Grover_r1",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/grover_dirty_n350_r1.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_199",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n100_total199.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_599",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n300_total599.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_999",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n500_total999.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_1399",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n700_total1399.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_1599",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n800_total1599.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_1799",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n900_total1799.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_1999",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n1000_total1999.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_3999",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n2000_total3999.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_5999",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n3000_total5999.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_7999",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n4000_total7999.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_mcx_9999",
+      "benchmark": "MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/MCX_n5000_total9999.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_adder_13",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n7_total13_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_adder_599",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n300_total599_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_adder_999",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n500_total999_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_adder_1499",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n750_total1499_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_adder_1999",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n1000_total1999_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_adder_2999",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n1500_total2999_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_adder_3999",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n2000_total3999_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_adder_4999",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n2500_total4999_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_adder_5999",
+      "benchmark": "Adder",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/adder_n3000_total5999_dirty.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_bridge_1399",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/ghz_dirty_bridge_n700_total1399.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_bridge_1799",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/ghz_dirty_bridge_n900_total1799.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_bridge_1999",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/ghz_dirty_bridge_n1000_total1999.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_bridge_2399",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/ghz_dirty_bridge_n1200_total2399.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_bridge_3599",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/ghz_dirty_bridge_n1800_total3599.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_bridge_4399",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/ghz_dirty_bridge_n2200_total4399.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_bridge_4799",
+      "benchmark": "BridgeGHZ",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/ghz_dirty_bridge_n2400_total4799.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_reqomp_11",
+      "benchmark": "Reqomp-MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/reqomp_mcx_n6_total11.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_reqomp_13",
+      "benchmark": "Reqomp-MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/reqomp_mcx_n7_total13.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_reqomp_15",
+      "benchmark": "Reqomp-MCX",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/reqomp_mcx_n8_total15.qasm"},
+      "targets": ["anc[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_identity_5",
+      "benchmark": "IdentityRandom",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/identity_q5_g50_s1.qasm"},
+      "targets": ["q[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_identity_6",
+      "benchmark": "IdentityRandom",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/identity_q6_g60_s1.qasm"},
+      "targets": ["q[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_identity_7",
+      "benchmark": "IdentityRandom",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/identity_q7_g70_s1.qasm"},
+      "targets": ["q[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_random_30",
+      "benchmark": "RandomCircuit",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/random_q30_g60_s0.qasm"},
+      "targets": ["q[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_random_50",
+      "benchmark": "RandomCircuit",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/random_q50_g100_s0.qasm"},
+      "targets": ["q[0]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    },
+    {
+      "id": "appendix_random_70",
+      "benchmark": "RandomCircuit",
+      "source": {"type": "existing", "path": "benchmark_for_tables/table3/random_q70_g70_s0.qasm"},
+      "targets": ["q[2]"],
+      "backends": ["matrix", "quokka", "qcec"],
+      "row_group": "table3",
+      "timeout_s": 3600,
+      "mem_gb": 32
+    }
+  ]
+}

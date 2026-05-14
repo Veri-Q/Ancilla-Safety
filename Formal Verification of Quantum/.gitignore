@@ -1,0 +1,14 @@
+__pycache__
+*.swp
+**/.DS_Store
+/.vscode
+*.quasimodo*
+dist
+quokka_sharp.egg-info
+quokka_sharp/quokka_sharp/docker.sh
+env/
+.venv/
+build/
+experiment/run_benchmarks/results/*.png
+experiment/run_benchmarks/results/*.tex
+experiment/run_benchmarks/tmp/*
