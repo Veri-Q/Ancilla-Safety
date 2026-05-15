@@ -1,4 +1,4 @@
 [submodule "quokka_sharp"]
 	path = quokka_sharp
 	url = https://github.com/Matrix0247/Quokka-Sharp.git
-	branch = ancilla_verify
+	branch = main
